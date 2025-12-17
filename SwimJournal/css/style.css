@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F7FA; 
+    color: #030124;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка сайту */
+header {
+    background-color: #1B0276;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6BBAE8;
+}
+
+/* Меню навігації */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3ACFBE;
+}
+
+/* Основний контент */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Кнопки */
+.button {
+    background-color: #3ACFBE;
+    color: #030124;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Підвал */
+footer {
+    background-color: #030124;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стилі для таблиці */
+table, th, td {
+    border: 1px solid #030124; /* Темно-синя рамка */
+}
